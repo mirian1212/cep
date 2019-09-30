@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label> cep </ion-label>
+    <ion-input  type= 'text' name='cep' [(ngModel)]= "endereco.cep" (ionBlur)= "prencher()">  </ion-input> 
+    </ion-item>
+    <ion-item>
+      <ion-label> logradouro </ion-label>
+      <ion-input  type= 'text' name='logradouro' [(ngModel)]= "endereco.logradouro">  </ion-input>
+      </ion-item>
+</ion-content>
